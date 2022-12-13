@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3229433062372268664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4393593321801646504}
+  - component: {fileID: 3995115676619101702}
+  m_Layer: 0
+  m_Name: Function2D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4393593321801646504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229433062372268664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3995115676619101702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3229433062372268664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf1495d3afc78d48b253207f49d7ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StepX: 0.1
+  StepY: 0.1
+  xSize: 15
+  ySize: 15
+  Network:
+    Layers:
+    - Size: 2
+      Values:
+      - 1
+      - 1
+      Biases: []
+      Errors:
+      - 0
+      - 0
+    - Size: 10
+      Values:
+      - -0.0041261446
+      - -0.0122034075
+      - -0.007475319
+      - 0.61469245
+      - -0.019001938
+      - 0.6651883
+      - 0.44399512
+      - 0.69283676
+      - 1.5191281
+      - 0.020302176
+      Biases:
+      - -0.6429167
+      - -0.8922508
+      - -0.07386243
+      - -0.11950433
+      - -0.7568152
+      - -0.12937534
+      - 0.7567079
+      - -0.017443538
+      - 0.4117343
+      - 0.7471621
+      Errors:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - Size: 10
+      Values:
+      - 1.2839204
+      - 0.0638939
+      - -0.0032324488
+      - 1.7663391
+      - 0.60022235
+      - 1.0057847
+      - -0.0065499702
+      - -0.0025280437
+      - -0.0066773146
+      - -0.015225862
+      Biases:
+      - 0.80185056
+      - 0.999984
+      - 0.09811175
+      - 0.14839423
+      - 0.7099421
+      - -0.9550667
+      - -0.6066501
+      - 0.6539457
+      - 0.939265
+      - 0.19959223
+      Errors:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - Size: 10
+      Values:
+      - -0.034738548
+      - -0.03741662
+      - -0.0061914474
+      - 0.3555762
+      - -0.008993615
+      - 0.07443913
+      - 0.7325928
+      - -0.0044330386
+      - 1.7072258
+      - 0.096176475
+      Biases:
+      - -0.32756674
+      - -0.4262179
+      - -0.41105616
+      - 0.16028988
+      - -0.68662906
+      - -0.24876368
+      - 0.7623303
+      - -0.70932627
+      - -0.36772692
+      - 0.13497198
+      Errors:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - Size: 1
+      Values:
+      - -0.9449731
+      Biases:
+      - -0.20530188
+      Errors:
+      - 0
+  TrainSize: 50000
+  LearningRate: 0.05

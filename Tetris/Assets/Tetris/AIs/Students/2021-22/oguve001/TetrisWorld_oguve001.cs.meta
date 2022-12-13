@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7571789855a35a34396f7e57c487c9d8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Tetris: {instanceID: 0}
+  - AI: {fileID: 11400000, guid: 5b1eba07d5006bb4284dc4e97171020e, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
